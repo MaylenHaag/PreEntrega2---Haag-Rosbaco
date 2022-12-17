@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* -----------HEAD--------- */
+.header{
+    background-color: aqua;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: flex-start;
+
+}
+
+
+#logo{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+
+}
+
+
+nav ul{
+    list-style: none;
+}
+
+
+nav ul li{
+    display: inline-block;
+
+}
+
+
+nav ul li a:hover{
+    color: red;
+
+}
+
+
+.header__nav{
+    padding-right: 0;
+    
+
+} 
+
+
+
+.dropbtn {
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+  
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+   
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* ----------FORM---------- */
+h2{
+    font-size: 30px;
+
+}
+
+
+.inicio{
+    background-image: url("../img/inicio.png");
+    text-align: center;
+    padding: 20%;
+
+}
+
+
+.inicio__h1{    
+    font-size: 50px;
+    background-color: aliceblue;
+    padding-left: 0;
+
+}
+
+
+.inicio__p{
+    font-size: 20px;
+    background-color: aliceblue;
+
+}
+
+
+/* .eventos{
+
+} */
+
+
+.eventos__h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+
+
+.eventos__h2--inscrip{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20%;
+
+}
+
+
+.eventos__h2--reco{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20%;
+
+}
+
+
+.eventos__h2--info{
+    text-align:center;
+    margin-top: 20%;
+
+    
+}
+
+
+.eventos__h2--galeria{
+    text-align: center;
+    margin-top: 0;
+
+}
+
+
+.eventos__h3{
+    text-align: center;
+    margin-top: 15%;
+
+}
+
+
+.eventos__p{
+    width: 52%;
+    margin-left: 51px;
+    margin-top: 30%;
+    
+}
+
+
+.eventos__p--inscrip{
+    margin: 20%;
+    background-color: crimson;
+    
+}
+
+
+.eventos__p--info{
+    margin-top: 15%;
+
+}
+
+
+.eventos__p--sub{
+    margin-top: 15%;
+
+}
+
+
+.eventos__div{
+    margin-left: 20px;
+    width: 70%;
+    height: 550px;
+}
+
+
+.eventos__div__inscrip{
+    text-align: center;
+    margin-top: 20%;
+
+}
+
+
+.eventos__div__reco{
+    text-align: center;
+    margin-top: 20%;
+
+}
+
+
+.eventos__div__galeria{
+    width: 65%;
+    margin-left: 25%;
+    background-color: darkolivegreen;
+
+}
+
+
+.eventos__div--blue{
+    background-color: dodgerblue;
+    display: inline-block;
+    height: 550px;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.eventos__div__sub{
+    text-align: center;
+    width: 23%;
+    height: 450px;
+
+}
+
+.eventos__div--yellow{
+    background-color:yellow;
+    display: inline-block;
+    margin-left: 70%;
+    width: 30%;
+    height: 550px;
+
+}
+
+
+.eventos__div--red{
+    background-color: red;
+    display: inline-block;
+    margin-left: 70%;
+    width: 30%;
+    height: 550px;
+
+}
+
+
+.eventos__img--reco{
+    width: 80%;
+    height: 70%;
+    margin-top: 5%;
+
+}
+
+
+.eventos__img--galeria{
+    width: 40%;
+    height: 40%;
+}
+
+
+.noticias{
+    width: 25%;
+    height: 500px;
+
+
+}
+
+
+.noticias__div{
+    background-color: coral;
+}
+
+
+
+
+.noticias__img{
+    width: 90%;
+}
+
+/* .alojamientos{
+
+} */
+
+
+.alojamientos__table{
+    border-radius: 10px;
+    
+}
+
+
+/* .alojamientos__table--th{
+
+} */
+
+
+/* .alojamientos__table--td{
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
