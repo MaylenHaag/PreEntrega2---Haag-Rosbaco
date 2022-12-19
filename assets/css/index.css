@@ -1,10 +1,14 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 
 /* -----------HEAD--------- */
+
+
+
 .header{
     background-color: aqua;
     position: sticky;
@@ -16,6 +20,7 @@
 	justify-content: space-between;
 	align-items: flex-start;
 	align-content: flex-start;
+    
 
 }
 
@@ -95,6 +100,30 @@ nav ul li a:hover{
 
 
 /* ----------FORM---------- */
+
+#container__eventos{
+    display: grid;
+    grid-template-columns: 2fr 1fr 7fr 4fr 3fr 2fr 6fr 1fr 2fr;
+    grid-template-rows: 2fr 2fr 23fr 4fr 23fr 4fr 21fr 2fr;
+    grid-template-areas: 
+    
+    verde verde verde verde verde verde negro negro negro
+    verde desafio desafio desafio desafio desafio desafio desafio negro
+    verde desafio desafio desafio desafio inscripciones inscripciones inscripciones negro
+    verde info1 info1 info1 info1 info1 negro negro negro
+    verde info1 info1 info1 recorrido recorrido recorrido negro negro
+    verde azul azul galeria galeria galeria galeria negro negro
+    verde azul info2 galeria galeria galeria galeria negro negro
+    verde azul azul galeria galeria galeria galeria negro negro
+    
+    
+    
+    
+    ;
+
+}
+
+
 h2{
     font-size: 30px;
 
@@ -203,10 +232,33 @@ h2{
 }
 
 
+.eventos__verde{
+    background-color: 
+    #D5F5E3;
+    grid-area: verde;
+
+}
+
+
+.eventos__negro{
+    background-color: black;
+    grid-area: negro;
+
+}
+
+
+.eventos__azul{
+    background-color: blue;
+    grid-area: azul;
+
+}
+
+
 .eventos__div{
     margin-left: 20px;
     width: 70%;
     height: 550px;
+    grid-area: info;
 }
 
 
@@ -220,6 +272,7 @@ h2{
 .eventos__div__reco{
     text-align: center;
     margin-top: 20%;
+    grid-area: recorrido;
 
 }
 
@@ -239,6 +292,7 @@ h2{
     width: 90%;
     margin-top: 20px;
     margin-left: 20px;
+    grid-area: desafio;
 
 }
 
@@ -246,6 +300,7 @@ h2{
     text-align: center;
     width: 23%;
     height: 450px;
+    grid-area: info2;
 
 }
 
@@ -255,6 +310,7 @@ h2{
     margin-left: 70%;
     width: 30%;
     height: 550px;
+    grid-area: inscripciones;
 
 }
 
@@ -280,6 +336,7 @@ h2{
 .eventos__img--galeria{
     width: 40%;
     height: 40%;
+    grid-area: galeria;
 }
 
 
