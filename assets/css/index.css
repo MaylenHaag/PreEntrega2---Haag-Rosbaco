@@ -372,32 +372,32 @@ h2{
 }
 
 
-.noticias__div1{
+.noticia__div1{
     background-color: coral;
     grid-area: noticia1;
 }
 
-.noticias__div2{
+.noticia__div2{
     background-color:chartreuse;
     grid-area: noticia2;
 }
 
-.noticias__div3{
+.noticia__div3{
     background-color:darkorange;
     grid-area: noticia3;
 }
 
-.noticias__div4{
+.noticia__div4{
     background-color:azure;
     grid-area: noticia4;
 }
 
-.noticias__div5{
+.noticia__div5{
     background-color:darkseagreen;
     grid-area: noticia5;
 }
 
-.noticias__div6{
+.noticia__div6{
     background-color:grey;
     grid-area: noticia6;
 }
