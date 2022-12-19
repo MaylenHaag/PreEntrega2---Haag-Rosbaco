@@ -101,7 +101,7 @@ nav ul li a:hover{
 
 /* ----------FORM---------- */
 
-#container__eventos{
+/* #container__eventos{
     display: grid;
     grid-template-columns: 2fr 1fr 7fr 4fr 3fr 2fr 6fr 1fr 2fr;
     grid-template-rows: 2fr 2fr 23fr 4fr 23fr 4fr 21fr 2fr;
@@ -121,7 +121,7 @@ nav ul li a:hover{
     
     ;
 
-}
+} */
 
 
 h2{
@@ -153,9 +153,29 @@ h2{
 }
 
 
-/* .eventos{
+.eventos{
+    display: grid;
+    grid-template-columns: 1fr 7fr 4fr 3fr 2fr 6fr 1fr;
+    grid-template-rows: 2fr 23fr 4fr 23fr 4fr 21fr 2fr;
+    grid-template-areas: 
+    
+    "verde verde verde verde verde verde negro negro negro"
+    "verde desafio desafio desafio desafio desafio desafio desafio negro"
+    "verde desafio desafio desafio desafio inscripciones inscripciones inscripciones negro"
+    "verde info1 info1 info1 info1 info1 negro negro negro"
+    "verde info1 info1 info1 recorrido recorrido recorrido negro negro"
+    "verde azul azul galeria galeria galeria galeria negro negro"
+    "verde azul info2 galeria galeria galeria galeria negro negro"
+    "verde azul azul galeria galeria galeria galeria negro negro"
+    
+    
+    
+    
+    ;
 
-} */
+}
+
+
 
 
 .eventos__h1{
@@ -340,16 +360,46 @@ h2{
 }
 
 
-.noticias{
-    width: 25%;
-    height: 500px;
+#noticias{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "noticia1 noticia2 noticia3"
+    "noticia4 noticia5 noticia6";
 
 
 }
 
 
-.noticias__div{
+.noticias__div1{
     background-color: coral;
+    grid-area: noticia1;
+}
+
+.noticias__div2{
+    background-color:chartreuse;
+    grid-area: noticia2;
+}
+
+.noticias__div3{
+    background-color:darkorange;
+    grid-area: noticia3;
+}
+
+.noticias__div4{
+    background-color:azure;
+    grid-area: noticia4;
+}
+
+.noticias__div5{
+    background-color:darkseagreen;
+    grid-area: noticia5;
+}
+
+.noticias__div6{
+    background-color:grey;
+    grid-area: noticia6;
 }
 
 
