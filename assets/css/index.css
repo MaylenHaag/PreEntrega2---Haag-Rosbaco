@@ -86,9 +86,11 @@ nav ul li a:hover{
 } 
 
 
-a{
+.a{
     text-decoration: none;
     color: #00214d;
+    align-items: center;
+
 }
 
 
