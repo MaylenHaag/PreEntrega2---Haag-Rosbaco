@@ -26,6 +26,7 @@
 	align-items: center;
 	align-content: flex-start;
     width: auto;
+    z-index: 2;
 
 }
 
@@ -154,29 +155,27 @@ nav ul li a:hover{
 /* ----------MAIN---------- */
 
 .eventos{
+    background-color:#00ebc7;
     display: grid;
-    grid-template-columns: 1fr 7fr 4fr 3fr 2fr 6fr 1fr;
-    grid-template-rows: 2fr 23fr 4fr 23fr 4fr 21fr 2fr;
+    grid-template-columns: 2fr 1fr 7fr 4fr 3fr 2fr 6fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr 11fr 2fr 11fr 2fr 10fr 1fr;
     grid-template-areas: 
     
-    "verde verde verde verde verde verde negro negro negro"
-    "verde desafio desafio desafio desafio desafio desafio desafio negro"
-    "verde desafio desafio desafio desafio inscripciones inscripciones inscripciones negro"
-    "verde info1 info1 info1 info1 info1 negro negro negro"
-    "verde info1 info1 info1 recorrido recorrido recorrido negro negro"
-    "verde azul azul galeria galeria galeria galeria negro negro"
-    "verde azul info2 galeria galeria galeria galeria negro negro"
-    "verde azul azul galeria galeria galeria galeria negro negro"
-    
-    
-    
+    ". . . . . . . . ."
+    ". desafio desafio desafio desafio . . . ."
+    ". desafio desafio desafio desafio inscripciones inscripciones inscripciones ."
+    ". . . . . . . . ."
+    ". info info info recorrido recorrido recorrido . ."
+    ". . . galeria galeria galeria galeria . ."
+    ". . info2 galeria galeria galeria galeria . ."
+    ". . . galeria galeria galeria galeria . ."
     
     ;
 
 }
 
 
-#eventos__verde{
+/* #eventos__verde{
     background-color: 
     #D5F5E3;
     grid-area: verde;
@@ -195,16 +194,16 @@ nav ul li a:hover{
     background-color: blue;
     grid-area: azul;
 
-}
+} */
 
 
 #eventos__desafio{
     background-color: dodgerblue;
     display: inline-block;
-    height: 550px;
+    /* height: 550px;
     width: 90%;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 20px; */
     grid-area: desafio;
 
 }
@@ -213,43 +212,47 @@ nav ul li a:hover{
 #eventos__inscripciones{
     background-color:yellow;
     display: inline-block;
-    margin-left: 70%;
+    /* margin-left: 70%;
     width: 30%;
-    height: 550px;
+    height: 550px; */
     grid-area: inscripciones;
 
 }
 
 
 #eventos__informacion{
-    margin-left: 20px;
+    /* margin-left: 20px;
     width: 70%;
-    height: 550px;
+    height: 550px; */
     grid-area: info;
+    background-color: #ff5470;
 }
 
 
 #eventos__recorrido{
-    text-align: center;
-    margin-top: 20%;
+    /* text-align: center; */
+    /* margin-top: 20%; */
     grid-area: recorrido;
+    background-color: blueviolet;
 
 }
 
 
 #eventos__informacion2{
     text-align: center;
-    width: 23%;
-    height: 450px;
+    /* width: 23%;
+    height: 450px; */
     grid-area: info2;
+    background-color: cornflowerblue;
 
 }
 
 
 #eventos__galeria{
-    width: 65%;
-    margin-left: 25%;
+    /* width: 65%;
+    margin-left: 25%; */
     background-color: darkolivegreen;
+    grid-area: galeria;
 
 }
 
@@ -383,6 +386,14 @@ nav ul li a:hover{
     height: 40%;
     grid-area: galeria;
 }
+
+
+
+
+
+
+
+
 
 
 #noticias{
