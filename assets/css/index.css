@@ -151,59 +151,7 @@ nav ul li a:hover{
 
 
 
-/* ----------FORM---------- */
-
-/* #container__eventos{
-    display: grid;
-    grid-template-columns: 2fr 1fr 7fr 4fr 3fr 2fr 6fr 1fr 2fr;
-    grid-template-rows: 2fr 2fr 23fr 4fr 23fr 4fr 21fr 2fr;
-    grid-template-areas: 
-    
-    verde verde verde verde verde verde negro negro negro
-    verde desafio desafio desafio desafio desafio desafio desafio negro
-    verde desafio desafio desafio desafio inscripciones inscripciones inscripciones negro
-    verde info1 info1 info1 info1 info1 negro negro negro
-    verde info1 info1 info1 recorrido recorrido recorrido negro negro
-    verde azul azul galeria galeria galeria galeria negro negro
-    verde azul info2 galeria galeria galeria galeria negro negro
-    verde azul azul galeria galeria galeria galeria negro negro
-    
-    
-    
-    
-    ;
-
-} */
-
-
-h2{
-    font-size: 30px;
-
-}
-
-
-.inicio{
-    background-image: url("../img/inicio.png");
-    text-align: center;
-    padding: 20%;
-
-}
-
-
-.inicio__h1{    
-    font-size: 50px;
-    background-color: aliceblue;
-    padding-left: 0;
-
-}
-
-
-.inicio__p{
-    font-size: 20px;
-    background-color: aliceblue;
-
-}
-
+/* ----------MAIN---------- */
 
 .eventos{
     display: grid;
@@ -226,6 +174,88 @@ h2{
     ;
 
 }
+
+
+#eventos__verde{
+    background-color: 
+    #D5F5E3;
+    grid-area: verde;
+
+}
+
+
+#eventos__negro{
+    background-color: black;
+    grid-area: negro;
+
+}
+
+
+#eventos__azul{
+    background-color: blue;
+    grid-area: azul;
+
+}
+
+
+#eventos__desafio{
+    background-color: dodgerblue;
+    display: inline-block;
+    height: 550px;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 20px;
+    grid-area: desafio;
+
+}
+
+
+#eventos__inscripciones{
+    background-color:yellow;
+    display: inline-block;
+    margin-left: 70%;
+    width: 30%;
+    height: 550px;
+    grid-area: inscripciones;
+
+}
+
+
+#eventos__informacion{
+    margin-left: 20px;
+    width: 70%;
+    height: 550px;
+    grid-area: info;
+}
+
+
+#eventos__recorrido{
+    text-align: center;
+    margin-top: 20%;
+    grid-area: recorrido;
+
+}
+
+
+#eventos__informacion2{
+    text-align: center;
+    width: 23%;
+    height: 450px;
+    grid-area: info2;
+
+}
+
+
+#eventos__galeria{
+    width: 65%;
+    margin-left: 25%;
+    background-color: darkolivegreen;
+
+}
+
+
+
+
 
 
 
@@ -304,34 +334,10 @@ h2{
 }
 
 
-.eventos__verde{
-    background-color: 
-    #D5F5E3;
-    grid-area: verde;
-
-}
 
 
-.eventos__negro{
-    background-color: black;
-    grid-area: negro;
-
-}
 
 
-.eventos__azul{
-    background-color: blue;
-    grid-area: azul;
-
-}
-
-
-.eventos__div{
-    margin-left: 20px;
-    width: 70%;
-    height: 550px;
-    grid-area: info;
-}
 
 
 .eventos__div__inscrip{
@@ -341,50 +347,17 @@ h2{
 }
 
 
-.eventos__div__reco{
-    text-align: center;
-    margin-top: 20%;
-    grid-area: recorrido;
-
-}
 
 
-.eventos__div__galeria{
-    width: 65%;
-    margin-left: 25%;
-    background-color: darkolivegreen;
-
-}
 
 
-.eventos__div--blue{
-    background-color: dodgerblue;
-    display: inline-block;
-    height: 550px;
-    width: 90%;
-    margin-top: 20px;
-    margin-left: 20px;
-    grid-area: desafio;
 
-}
 
-.eventos__div__sub{
-    text-align: center;
-    width: 23%;
-    height: 450px;
-    grid-area: info2;
 
-}
 
-.eventos__div--yellow{
-    background-color:yellow;
-    display: inline-block;
-    margin-left: 70%;
-    width: 30%;
-    height: 550px;
-    grid-area: inscripciones;
 
-}
+
+
 
 
 .eventos__div--red{
@@ -546,6 +519,25 @@ h2{
 
 
 
+
+
+
+/* ---FOOTER--- */
+.img__footer{
+    align-items: center;
+}
+
+
+.img__footer--inst{
+    width:34px;
+    height:34px;
+}
+
+
+.img__footer--fb{
+    width:27px;
+    height:27px;
+}
 
 
 
