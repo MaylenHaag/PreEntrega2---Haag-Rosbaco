@@ -209,6 +209,22 @@ nav ul li a:hover{
 }
 
 
+.eventos__desafio--h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    margin-left: 50px;
+    margin-top: 20%;
+
+}
+
+
+.eventos__desafio--p{
+    width: auto;
+    margin: 70% 20px 30px 20px;
+    
+}
+
+
 #eventos__inscripciones{
     background-color:yellow;
     display: inline-block;
@@ -220,6 +236,27 @@ nav ul li a:hover{
 }
 
 
+.eventos__inscripciones--div{
+    text-align: center;
+    margin-top: 30%;
+
+}
+
+
+.eventos__inscripciones--h2{
+    font-size: 30px;
+
+}
+
+
+.eventos__inscripciones--p{
+    margin: 20%;
+    background-color: crimson;
+    
+}
+
+
+
 #eventos__informacion{
     /* margin-left: 20px;
     width: 70%;
@@ -229,12 +266,43 @@ nav ul li a:hover{
 }
 
 
+.eventos__informacion--h2{
+    text-align:center;
+    margin-top: 20%;
+
+    
+}
+
+
+.eventos__informacion--p{
+    margin: 60px;
+
+}
+
+
 #eventos__recorrido{
     /* text-align: center; */
     /* margin-top: 20%; */
     grid-area: recorrido;
     background-color: blueviolet;
 
+}
+
+
+.eventos__recorrido--h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10%;
+
+}
+
+
+.eventos__recorrido--img{
+    width: 95%;
+    height: 82%;
+    margin-top: 5%;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -248,6 +316,20 @@ nav ul li a:hover{
 }
 
 
+.eventos__info2--h3{
+    text-align: center;
+    margin-top: 15%;
+
+}
+
+
+.eventos__info2--p{
+    margin-top: 15%;
+    text-align:left;
+
+}
+
+
 #eventos__galeria{
     /* width: 65%;
     margin-left: 25%; */
@@ -257,143 +339,20 @@ nav ul li a:hover{
 }
 
 
-
-
-
-
-
-
-.eventos__h1{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 60px;
-    margin-left: 50px;
-    margin-top: 30px;
-
-}
-
-
-.eventos__h2--inscrip{
+.eventos__galeria--h2{
     text-align: center;
-    font-size: 30px;
-    margin-top: 20%;
+    margin-top: 10%;
 
 }
 
 
-.eventos__h2--reco{
-    text-align: center;
-    font-size: 30px;
-    margin-top: 20%;
-
-}
-
-
-.eventos__h2--info{
-    text-align:center;
-    margin-top: 20%;
-
-    
-}
-
-
-.eventos__h2--galeria{
-    text-align: center;
-    margin-top: 0;
-
-}
-
-
-.eventos__h3{
-    text-align: center;
-    margin-top: 15%;
-
-}
-
-
-.eventos__p{
-    width: 52%;
-    margin-left: 51px;
-    margin-top: 30%;
-    
-}
-
-
-.eventos__p--inscrip{
-    margin: 20%;
-    background-color: crimson;
-    
-}
-
-
-.eventos__p--info{
-    margin-top: 15%;
-
-}
-
-
-.eventos__p--sub{
-    margin-top: 15%;
-
-}
-
-
-
-
-
-
-
-
-.eventos__div__inscrip{
-    text-align: center;
-    margin-top: 20%;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.eventos__div--red{
-    background-color: red;
-    display: inline-block;
-    margin-left: 70%;
-    width: 30%;
-    height: 550px;
-
-}
-
-
-.eventos__img--reco{
-    width: 80%;
-    height: 70%;
-    margin-top: 5%;
-
-}
-
-
-.eventos__img--galeria{
-    width: 40%;
-    height: 40%;
+.eventos__galeria--img{
+    width: 32%;
+    height: 32%;
+    margin-top: 10%;
+    margin-left: 5px;
     grid-area: galeria;
 }
-
-
-
-
-
-
-
-
 
 
 #noticias{
@@ -470,7 +429,6 @@ nav ul li a:hover{
     margin-bottom: 50px;
     padding: 20px;
     width: 80%;
-
     display: block;
     position: relative;
 
@@ -501,36 +459,63 @@ nav ul li a:hover{
 }
 
 
-
-
 .noticias__img{
     width: 90%;
 }
 
-/* .alojamientos{
 
-} */
+#sobrenosotros{
+    background-color: #00214d;
+    color: #EFF8FF;
 
-
-.alojamientos__table{
-    border-radius: 10px;
-    
 }
 
 
-/* .alojamientos__table--th{
+.sobrenosotros--h1{
+    text-align: center;
+    padding-top: 50px;
 
-} */
-
-
-/* .alojamientos__table--td{
-
-} */
+}
 
 
+.sobrenosotros--info{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
 
 
+.sobrenosotros--h2{
+    margin-top: 80px;
+    margin-left: 50px;
 
+}
+
+
+.span{
+    color:#ff5470;
+    font-family:fantasy;
+
+}
+
+
+.sobrenosotros--p{
+    margin-top: 35px;
+    margin-left: 50px;
+    width: 55%;
+
+}
+
+
+.sobrenosotros--img{
+    width: 200%;
+    height: 200%;
+    margin-left: -300px;
+    margin-top: 130px;
+}
 
 
 /* ---FOOTER--- */
