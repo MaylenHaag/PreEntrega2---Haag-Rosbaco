@@ -93,6 +93,15 @@ nav ul li{
 }
 
 
+@media screen and (max-width: 480px){
+    nav ul li{
+        display:list-item;
+    
+    }
+
+}
+
+
 nav ul li a:hover{
     color: red;
 
