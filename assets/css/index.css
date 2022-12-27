@@ -235,22 +235,15 @@ nav ul li a:hover{
         background-color:#00ebc7;
         display: grid;
         grid-template-columns: 5% 90% 5%;
-        grid-template-rows: 15px 500px 30px 1fr 1px 1fr 13fr 1fr 7fr 1fr 13fr 1fr;
+        grid-template-rows: 500px  600px 700px  600px  600px  800px;
         grid-template-areas: 
         
-        ". . ."
         ". desafio ."
-        ". . ."
         ". inscripciones ."
-        ". . ."
         ". info ."
-        ". . ."
         ". recorrido ."
-        ". . ."
         ". info2 ."
-        ". . ."
         ". galeria ."
-        ". . ."
         
         ;
     
@@ -368,7 +361,7 @@ nav ul li a:hover{
 @media screen and (max-width:480px){
     #eventos__inscripciones{
         background-image: url(../img/inscripciones_movil.png);
-        height: 80%;
+        height: 100%;
     
     }
     
@@ -414,6 +407,21 @@ nav ul li a:hover{
 }
 
 
+@media screen and (max-width: 480px){
+    .eventos__informacion--h2{
+        margin-top: 15%;
+    
+    }
+    
+    
+    .eventos__informacion--p{
+        margin: 40px;
+    
+    }
+
+}
+
+
 #eventos__recorrido{
     grid-area: recorrido;
     background-color: rgba(234,46,73,0.9);
@@ -435,6 +443,20 @@ nav ul li a:hover{
     margin-top: 5%;
     margin-left: 10px;
     margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 480px){
+    #eventos__recorrido{
+        height: 80%;
+    
+    }
+
+
+    .eventos__recorrido--img{
+        height: 75%;
+    }
+
 }
 
 
@@ -484,6 +506,23 @@ nav ul li a:hover{
     margin-top: 10%;
     margin-left: 5px;
     grid-area: galeria;
+}
+
+
+@media screen and (max-width: 480px) {
+    #eventos__galeria{
+        height: 100%;
+    
+    }
+
+
+    .eventos__galeria--img{
+        width: 45%;
+        height: 20%;
+        margin-top: 10%;
+        margin-left: 5px;
+    }
+    
 }
 
 
